@@ -1,0 +1,48 @@
+initialize at 0
+/playerwin
+/computerwin
+/drawcounter
+/player selection
+/computer selection
+
+prompt user rock paper scissors
+capitalization letter check
+tolowercase function
+AFTER capitalization function
+reprompt if not rock paper scissors
+
+comptuer selection random
+initialize i for for loop
+for loop up to 5
+if player rock 
+  if computer rock
+    then draw++
+  elif computer paper
+    then computerwin ++
+  elif computer scissors
+    then playerwin++
+if player scissors
+  if computer rock
+    then computerwin++
+  elif computer scissors
+    then draw++
+  elif computer paper
+    then playerwin++
+if player paper 
+  if computer rock
+    then playerwin++
+  elif computer scissors
+    then draw++
+  elif computer paper
+    then playerwin++
+
+for i++ up to 5
+prompt player
+capitalization check
+play game
+if play round equals 1
+  draw++
+if playround equyals 2
+  computer++
+if playround equals 3
+  player++
